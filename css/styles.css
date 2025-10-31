@@ -1,0 +1,111 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(199, 216, 235);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav.primero{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(38, 60, 109);
+    padding: 0px;
+}
+
+nav.primero ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav.primero ul li{
+    display: flex;
+    padding: 40px;
+    font-size: 25px;
+    color: white;
+}
+
+nav.primero ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav.primero ul li:hover{
+    background-color: white;
+    color: black;
+}
+
+nav.primero ul li:hover a{
+    color: black;
+}
+
+nav.segundo{
+    background-color: azure;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+nav.segundo ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 35px;
+}
+
+nav.segundo ul li{
+    display: flex;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    margin-left: 0px;
+}
+
+nav.segundo ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+div.Titulo{
+    background-color: rgb(199, 216, 235);
+}
+
+div.Titulo p{
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-left: 85px;
+}
+
+main section article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+main section article div h2{
+    font-size: 70px;
+}
+
+main section article div p{
+    font-size: 25px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
