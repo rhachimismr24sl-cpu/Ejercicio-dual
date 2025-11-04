@@ -1,0 +1,178 @@
+body{
+    padding: 0px;
+    margin: 0%;
+    background-color: rgb(199, 216, 235);
+    font-family: 'Times New Roman', Times, serif;
+}
+body h2{
+    font-size: 70px;
+    margin-left: 250px;
+    text-decoration: underline;
+}
+nav.primero{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(38, 60, 109);
+    padding: 0px;   
+}
+nav.primero li{
+    padding: 50px;
+    margin-top: 0px;
+    list-style: none;
+    color: white;
+}
+nav.primero li:hover{
+    background-color: rgb(208, 208, 238);
+    color: black;
+}
+nav.primero li:hover a{
+    background-color: rgb(208, 208, 238);
+    color: black;
+}
+nav.primero li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.segundo{
+    background-color: azure;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.segundo ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+}
+.segundo ul li{
+    display: flex;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.segundo ul li a{
+    text-decoration: none;
+    color: black;
+}
+.titulo{
+    background-color: rgb(199, 216, 235);
+}
+
+.titulo p{ 
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-left: 85px;
+}
+.intro{
+    margin-left: 840px;
+}
+.introduccion{
+    display: flex;
+}
+.introduccion p{
+    margin: 60px;
+    margin-left: 200px;
+    
+}
+.introduccion img{
+    height: 500px;
+    width: 700px;
+    margin-right: 300px;
+}
+.ciga{
+    border: solid 3px rgb(157, 216, 255);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: rgb(167, 208, 255);
+}
+.ciga .cigala{
+    display: flex;
+}
+.ciga .cigala h2{
+    margin: 0px;
+    width: 25%;
+}
+.ciga .cigala img{
+    height: 400px;
+    width: 700px;
+    margin: 30px;
+    border: solid 5px;
+}
+.ciga .cigala .texto{
+    width: 50%;
+    margin-left: 90px;
+}
+.churu{
+    border: solid 3px rgb(255, 157, 157);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(250, 207, 207);
+}
+.churu .churumbel{
+    display: flex;
+}
+.churu .churumbel h2{
+    margin-top: 70px;
+    margin: 30px;
+}
+.churu .churumbel img{
+    height: 500px;
+    width:600px;
+    margin: 30px;
+    margin-left: 100px;
+    border: solid 5px;
+}
+.churu .churumbel .texto2{
+    width: 50%;
+    margin-top: 0px;
+    margin-left: 90px;
+}
+.fale{
+    border: solid 3px rgb(165, 255, 157);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(202, 255, 202);
+}
+.fale .falete{
+    display: flex;
+}
+.fale .falete h2{
+    margin: 30px;
+}
+.fale .falete img{
+    height: 600px;
+    width: 400px;
+    margin: 30px;
+    margin-left: 150px;
+    border: solid 5px;
+}
+.fale .falete .texto3{
+    width: 60%;
+    margin-left: 90px;
+    margin-bottom: 70px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-bottom:10px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+p{
+    font-size: 25px;
+}
